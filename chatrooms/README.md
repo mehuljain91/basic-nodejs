@@ -1,2 +1,2 @@
 Building a multiroom chat application  
-From Book Node.js IN ACTION book
+From Book Node.js IN ACTION
