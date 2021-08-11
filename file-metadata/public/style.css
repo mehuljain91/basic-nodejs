@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(212, 233, 233);
+    text-align: center;
+}
+
+.box {
+    border: 1px solid black;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgb(241, 230, 213);
+    width: 50%;
+}
+
+#fileinput, #button {
+    display: inline-block;
+    height: 30px;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 600px) {
+    .box {
+        width: 80%;
+    }
+    
+    #fileinput, #button {
+    display: block;
+    height: 30px;
+}
+
+
+}
